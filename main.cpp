@@ -372,7 +372,7 @@ private:
 int main(int argc, const char * argv[]) {
 
     int state = START_ST;
-    string path = "./testovaci_data";
+    string path = "./tests";
     vector<fs::directory_entry> files;
     for (const auto & entry : fs::directory_iterator(path))
         files.push_back(entry);
